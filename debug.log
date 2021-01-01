@@ -1,0 +1,541 @@
+[01-Sep-2020 07:55:29 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'ujrmt8ynh6bd2'@'localhost' (using password: YES) in /home3/dotteg85/public_html/app/core/Database.php on line 15
+[01-Sep-2020 08:00:18 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home3/dotteg85/public_html/app/controllers/LinkAjax.php on line 1103
+[01-Sep-2020 08:00:18 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home3/dotteg85/public_html/app/controllers/LinkAjax.php on line 1103
+[01-Sep-2020 08:01:20 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home3/dotteg85/public_html/app/controllers/LinkAjax.php on line 1129
+[01-Sep-2020 08:01:20 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home3/dotteg85/public_html/app/controllers/LinkAjax.php on line 1129
+[01-Sep-2020 08:01:46 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home3/dotteg85/public_html/app/controllers/LinkAjax.php on line 1129
+[01-Sep-2020 08:01:46 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home3/dotteg85/public_html/app/controllers/LinkAjax.php on line 1129
+[01-Sep-2020 08:02:45 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home3/dotteg85/public_html/app/controllers/LinkAjax.php on line 1129
+[01-Sep-2020 08:02:45 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home3/dotteg85/public_html/app/controllers/LinkAjax.php on line 1129
+[01-Sep-2020 08:03:23 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home3/dotteg85/public_html/app/controllers/LinkAjax.php on line 1129
+[01-Sep-2020 08:03:23 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home3/dotteg85/public_html/app/controllers/LinkAjax.php on line 1129
+[01-Sep-2020 08:03:54 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home3/dotteg85/public_html/app/controllers/LinkAjax.php on line 1129
+[01-Sep-2020 08:03:54 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home3/dotteg85/public_html/app/controllers/LinkAjax.php on line 1129
+[01-Sep-2020 08:04:16 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home3/dotteg85/public_html/app/controllers/LinkAjax.php on line 1129
+[01-Sep-2020 08:04:16 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home3/dotteg85/public_html/app/controllers/LinkAjax.php on line 1129
+[01-Sep-2020 08:04:40 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home3/dotteg85/public_html/app/controllers/LinkAjax.php on line 1129
+[01-Sep-2020 08:04:40 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home3/dotteg85/public_html/app/controllers/LinkAjax.php on line 1129
+[01-Sep-2020 08:04:57 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home3/dotteg85/public_html/app/controllers/LinkAjax.php on line 1129
+[01-Sep-2020 08:04:57 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home3/dotteg85/public_html/app/controllers/LinkAjax.php on line 1129
+[01-Sep-2020 08:10:06 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home3/dotteg85/public_html/app/controllers/LinkAjax.php on line 1103
+[01-Sep-2020 08:10:06 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home3/dotteg85/public_html/app/controllers/LinkAjax.php on line 1103
+[01-Sep-2020 08:14:20 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home3/dotteg85/public_html/app/controllers/LinkAjax.php on line 1129
+[01-Sep-2020 08:14:20 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home3/dotteg85/public_html/app/controllers/LinkAjax.php on line 1129
+[01-Sep-2020 08:14:49 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home3/dotteg85/public_html/app/controllers/LinkAjax.php on line 1129
+[01-Sep-2020 08:14:49 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home3/dotteg85/public_html/app/controllers/LinkAjax.php on line 1129
+[01-Sep-2020 08:14:58 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home3/dotteg85/public_html/app/controllers/LinkAjax.php on line 1129
+[01-Sep-2020 08:14:58 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home3/dotteg85/public_html/app/controllers/LinkAjax.php on line 1129
+[29-Sep-2020 17:17:09 UTC] PHP Fatal error:  Uncaught MaxMind\Db\Reader\InvalidDatabaseException: The MaxMind DB file's search tree is corrupt in /home3/dotteg85/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php:246
+Stack trace:
+#0 /home3/dotteg85/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(146): MaxMind\Db\Reader->resolveDataPointer(16727818)
+#1 /home3/dotteg85/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(101): MaxMind\Db\Reader->getWithPrefixLen('2405:204:228a:3...')
+#2 /home3/dotteg85/public_html/app/controllers/link/Link.php(98): MaxMind\Db\Reader->get('2405:204:228a:3...')
+#3 [internal function]: Altum\Controllers\Link->index()
+#4 /home3/dotteg85/public_html/app/core/App.php(149): call_user_func_array(Array, Array)
+#5 /home3/dotteg85/public_html/index.php(11): Altum\App->__construct()
+#6 {main}
+  thrown in /home3/dotteg85/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php on line 246
+[29-Sep-2020 17:17:09 UTC] PHP Fatal error:  Uncaught MaxMind\Db\Reader\InvalidDatabaseException: The MaxMind DB file's search tree is corrupt in /home3/dotteg85/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php:246
+Stack trace:
+#0 /home3/dotteg85/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(146): MaxMind\Db\Reader->resolveDataPointer(16727818)
+#1 /home3/dotteg85/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(101): MaxMind\Db\Reader->getWithPrefixLen('2405:204:228a:3...')
+#2 /home3/dotteg85/public_html/app/controllers/link/Link.php(98): MaxMind\Db\Reader->get('2405:204:228a:3...')
+#3 [internal function]: Altum\Controllers\Link->index()
+#4 /home3/dotteg85/public_html/app/core/App.php(149): call_user_func_array(Array, Array)
+#5 /home3/dotteg85/public_html/index.php(11): Altum\App->__construct()
+#6 {main}
+  thrown in /home3/dotteg85/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php on line 246
+[29-Sep-2020 17:17:09 UTC] PHP Fatal error:  Uncaught MaxMind\Db\Reader\InvalidDatabaseException: The MaxMind DB file's search tree is corrupt in /home3/dotteg85/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php:246
+Stack trace:
+#0 /home3/dotteg85/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(146): MaxMind\Db\Reader->resolveDataPointer(16727818)
+#1 /home3/dotteg85/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(101): MaxMind\Db\Reader->getWithPrefixLen('2405:204:228a:3...')
+#2 /home3/dotteg85/public_html/app/controllers/link/Link.php(98): MaxMind\Db\Reader->get('2405:204:228a:3...')
+#3 [internal function]: Altum\Controllers\Link->index()
+#4 /home3/dotteg85/public_html/app/core/App.php(149): call_user_func_array(Array, Array)
+#5 /home3/dotteg85/public_html/index.php(11): Altum\App->__construct()
+#6 {main}
+  thrown in /home3/dotteg85/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php on line 246
+[30-Sep-2020 04:26:40 UTC] PHP Fatal error:  Uncaught (Status 400) (Request req_1JfaMTODoUO04A) Invalid currency: rs. Stripe currently supports these currencies: usd, aed, afn, all, amd, ang, aoa, ars, aud, awg, azn, bam, bbd, bdt, bgn, bhd, bif, bmd, bnd, bob, brl, bsd, bwp, bzd, cad, cdf, chf, clp, cny, cop, crc, cve, czk, djf, dkk, dop, dzd, egp, etb, eur, fjd, fkp, gbp, gel, gip, gmd, gnf, gtq, gyd, hkd, hnl, hrk, htg, huf, idr, ils, inr, isk, jmd, jod, jpy, kes, kgs, khr, kmf, krw, kwd, kyd, kzt, lak, lbp, lkr, lrd, lsl, mad, mdl, mga, mkd, mmk, mnt, mop, mro, mur, mvr, mwk, mxn, myr, mzn, nad, ngn, nio, nok, npr, nzd, omr, pab, pen, pgk, php, pkr, pln, pyg, qar, ron, rsd, rub, rwf, sar, sbd, scr, sek, sgd, shp, sll, sos, srd, std, szl, thb, tjs, tnd, top, try, ttd, twd, tzs, uah, ugx, uyu, uzs, vnd, vuv, wst, xaf, xcd, xof, xpf, yer, zar, zmw, eek, lvl, svc, vef, ltl
+  thrown in /home3/dotteg85/public_html/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[12-Oct-2020 17:00:12 Europe/Berlin] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: No such host is known.  in C:\xampp\htdocs\khaled\app\core\Database.php on line 15
+[12-Oct-2020 17:00:12 Europe/Berlin] PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: No such host is known.  in C:\xampp\htdocs\khaled\app\core\Database.php on line 15
+[15-Oct-2020 07:57:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/trool5du/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php:907) in /home3/trool5du/public_html/app/helpers/links.php on line 8
+[15-Oct-2020 07:58:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/trool5du/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php:907) in /home3/trool5du/public_html/app/helpers/links.php on line 8
+[15-Oct-2020 07:59:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/trool5du/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php:907) in /home3/trool5du/public_html/app/helpers/links.php on line 8
+[15-Oct-2020 07:59:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/trool5du/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php:907) in /home3/trool5du/public_html/app/helpers/links.php on line 8
+[15-Oct-2020 08:46:17 UTC] Stripe Notice: Undefined property of Stripe\Checkout\Session instance: display_items
+[15-Oct-2020 08:46:17 UTC] Stripe Notice: Undefined property of Stripe\Checkout\Session instance: display_items
+[15-Oct-2020 11:57:46 UTC] PHP Fatal error:  Uncaught (Status 401) Invalid API Key provided: sk_live_***xs3h
+  thrown in /home3/trool5du/public_html/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[15-Oct-2020 11:58:08 UTC] PHP Fatal error:  Uncaught (Status 401) Invalid API Key provided: sk_live_***xs3h
+  thrown in /home3/trool5du/public_html/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[15-Oct-2020 11:58:54 UTC] PHP Fatal error:  Uncaught (Status 401) Invalid API Key provided: sk_live_***xs3h
+  thrown in /home3/trool5du/public_html/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[15-Oct-2020 11:59:12 UTC] PHP Fatal error:  Uncaught (Status 401) Invalid API Key provided: sk_live_***xs3h
+  thrown in /home3/trool5du/public_html/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[15-Oct-2020 13:16:05 UTC] Stripe Notice: Undefined property of Stripe\Checkout\Session instance: display_items
+[15-Oct-2020 13:16:05 UTC] Stripe Notice: Undefined property of Stripe\Checkout\Session instance: display_items
+[16-Oct-2020 00:44:52 America/Chicago] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home3/trool5du/public_html/app/core/Database.php on line 15
+[16-Oct-2020 00:44:53 America/Chicago] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home3/trool5du/public_html/app/core/Database.php on line 15
+[16-Oct-2020 12:08:40 UTC] PHP Fatal error:  Uncaught MaxMind\Db\Reader\InvalidDatabaseException: The MaxMind DB file's search tree is corrupt in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php:246
+Stack trace:
+#0 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(146): MaxMind\Db\Reader->resolveDataPointer(16727818)
+#1 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(101): MaxMind\Db\Reader->getWithPrefixLen('2405:204:286:c6...')
+#2 /home3/trool5du/public_html/app/controllers/link/Link.php(98): MaxMind\Db\Reader->get('2405:204:286:c6...')
+#3 [internal function]: Altum\Controllers\Link->index()
+#4 /home3/trool5du/public_html/app/core/App.php(149): call_user_func_array(Array, Array)
+#5 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#6 {main}
+  thrown in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php on line 246
+[16-Oct-2020 12:08:40 UTC] PHP Fatal error:  Uncaught MaxMind\Db\Reader\InvalidDatabaseException: The MaxMind DB file's search tree is corrupt in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php:246
+Stack trace:
+#0 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(146): MaxMind\Db\Reader->resolveDataPointer(16727818)
+#1 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(101): MaxMind\Db\Reader->getWithPrefixLen('2405:204:286:c6...')
+#2 /home3/trool5du/public_html/app/controllers/link/Link.php(98): MaxMind\Db\Reader->get('2405:204:286:c6...')
+#3 [internal function]: Altum\Controllers\Link->index()
+#4 /home3/trool5du/public_html/app/core/App.php(149): call_user_func_array(Array, Array)
+#5 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#6 {main}
+  thrown in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php on line 246
+[16-Oct-2020 19:19:17 UTC] PHP Fatal error:  Uncaught MaxMind\Db\Reader\InvalidDatabaseException: The MaxMind DB file's search tree is corrupt in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php:246
+Stack trace:
+#0 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(146): MaxMind\Db\Reader->resolveDataPointer(16727818)
+#1 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(101): MaxMind\Db\Reader->getWithPrefixLen('2405:204:286:c6...')
+#2 /home3/trool5du/public_html/app/controllers/link/Link.php(98): MaxMind\Db\Reader->get('2405:204:286:c6...')
+#3 [internal function]: Altum\Controllers\Link->index()
+#4 /home3/trool5du/public_html/app/core/App.php(149): call_user_func_array(Array, Array)
+#5 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#6 {main}
+  thrown in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php on line 246
+[16-Oct-2020 19:47:21 UTC] PHP Fatal error:  Uncaught MaxMind\Db\Reader\InvalidDatabaseException: The MaxMind DB file's search tree is corrupt in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php:246
+Stack trace:
+#0 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(146): MaxMind\Db\Reader->resolveDataPointer(16727818)
+#1 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(101): MaxMind\Db\Reader->getWithPrefixLen('2405:204:286:c6...')
+#2 /home3/trool5du/public_html/app/controllers/link/Link.php(98): MaxMind\Db\Reader->get('2405:204:286:c6...')
+#3 [internal function]: Altum\Controllers\Link->index()
+#4 /home3/trool5du/public_html/app/core/App.php(149): call_user_func_array(Array, Array)
+#5 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#6 {main}
+  thrown in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php on line 246
+[19-Oct-2020 10:12:33 UTC] PHP Fatal error:  Uncaught MaxMind\Db\Reader\InvalidDatabaseException: The MaxMind DB file's search tree is corrupt in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php:246
+Stack trace:
+#0 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(146): MaxMind\Db\Reader->resolveDataPointer(16727818)
+#1 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(101): MaxMind\Db\Reader->getWithPrefixLen('2405:204:308:bf...')
+#2 /home3/trool5du/public_html/app/controllers/link/Link.php(98): MaxMind\Db\Reader->get('2405:204:308:bf...')
+#3 [internal function]: Altum\Controllers\Link->index()
+#4 /home3/trool5du/public_html/app/core/App.php(149): call_user_func_array(Array, Array)
+#5 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#6 {main}
+  thrown in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php on line 246
+[20-Oct-2020 07:37:31 UTC] PHP Fatal error:  Uncaught MaxMind\Db\Reader\InvalidDatabaseException: The MaxMind DB file's search tree is corrupt in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php:246
+Stack trace:
+#0 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(146): MaxMind\Db\Reader->resolveDataPointer(16727818)
+#1 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(101): MaxMind\Db\Reader->getWithPrefixLen('2405:204:286:c6...')
+#2 /home3/trool5du/public_html/app/controllers/link/Link.php(98): MaxMind\Db\Reader->get('2405:204:286:c6...')
+#3 [internal function]: Altum\Controllers\Link->index()
+#4 /home3/trool5du/public_html/app/core/App.php(149): call_user_func_array(Array, Array)
+#5 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#6 {main}
+  thrown in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php on line 246
+[20-Oct-2020 08:26:25 UTC] PHP Fatal error:  Uncaught MaxMind\Db\Reader\InvalidDatabaseException: The MaxMind DB file's search tree is corrupt in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php:246
+Stack trace:
+#0 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(146): MaxMind\Db\Reader->resolveDataPointer(16727818)
+#1 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(101): MaxMind\Db\Reader->getWithPrefixLen('2405:204:308:bf...')
+#2 /home3/trool5du/public_html/app/controllers/link/Link.php(98): MaxMind\Db\Reader->get('2405:204:308:bf...')
+#3 [internal function]: Altum\Controllers\Link->index()
+#4 /home3/trool5du/public_html/app/core/App.php(149): call_user_func_array(Array, Array)
+#5 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#6 {main}
+  thrown in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php on line 246
+[26-Oct-2020 06:10:39 America/Chicago] PHP Warning:  require_once(/home3/trool5du/public_html/app/controllers/https://troo.link/index.php?tr=404error/.php): failed to open stream: No such file or directory in /home3/trool5du/public_html/app/core/Router.php on line 444
+[26-Oct-2020 06:10:39 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '/home3/trool5du/public_html/app/controllers/https://troo.link/index.php?tr=404error/.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/trool5du/public_html/app/core/Router.php on line 444
+[26-Oct-2020 06:10:39 America/Chicago] PHP Warning:  require_once(/home3/trool5du/public_html/app/controllers/https://troo.link/index.php?tr=404error/.php): failed to open stream: No such file or directory in /home3/trool5du/public_html/app/core/Router.php on line 444
+[26-Oct-2020 06:10:39 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '/home3/trool5du/public_html/app/controllers/https://troo.link/index.php?tr=404error/.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/trool5du/public_html/app/core/Router.php on line 444
+[26-Oct-2020 06:16:00 America/Chicago] PHP Warning:  require_once(/home3/trool5du/public_html/app/controllers/.php): failed to open stream: No such file or directory in /home3/trool5du/public_html/app/core/Router.php on line 444
+[26-Oct-2020 06:16:00 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '/home3/trool5du/public_html/app/controllers/.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/trool5du/public_html/app/core/Router.php on line 444
+[26-Oct-2020 06:16:00 America/Chicago] PHP Warning:  require_once(/home3/trool5du/public_html/app/controllers/.php): failed to open stream: No such file or directory in /home3/trool5du/public_html/app/core/Router.php on line 444
+[26-Oct-2020 06:16:00 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '/home3/trool5du/public_html/app/controllers/.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/trool5du/public_html/app/core/Router.php on line 444
+[02-Nov-2020 12:20:10 UTC] PHP Fatal error:  Uncaught MaxMind\Db\Reader\InvalidDatabaseException: The MaxMind DB file's search tree is corrupt in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php:246
+Stack trace:
+#0 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(146): MaxMind\Db\Reader->resolveDataPointer(16727818)
+#1 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(101): MaxMind\Db\Reader->getWithPrefixLen('2405:204:28e:71...')
+#2 /home3/trool5du/public_html/app/controllers/link/Link.php(98): MaxMind\Db\Reader->get('2405:204:28e:71...')
+#3 [internal function]: Altum\Controllers\Link->index()
+#4 /home3/trool5du/public_html/app/core/App.php(149): call_user_func_array(Array, Array)
+#5 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#6 {main}
+  thrown in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php on line 246
+[04-Nov-2020 18:39:49 UTC] PHP Fatal error:  Uncaught MaxMind\Db\Reader\InvalidDatabaseException: The MaxMind DB file's search tree is corrupt in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php:246
+Stack trace:
+#0 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(146): MaxMind\Db\Reader->resolveDataPointer(16727818)
+#1 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(101): MaxMind\Db\Reader->getWithPrefixLen('2405:204:204:1c...')
+#2 /home3/trool5du/public_html/app/controllers/link/Link.php(98): MaxMind\Db\Reader->get('2405:204:204:1c...')
+#3 [internal function]: Altum\Controllers\Link->index()
+#4 /home3/trool5du/public_html/app/core/App.php(149): call_user_func_array(Array, Array)
+#5 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#6 {main}
+  thrown in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php on line 246
+[04-Nov-2020 18:39:49 UTC] PHP Fatal error:  Uncaught MaxMind\Db\Reader\InvalidDatabaseException: The MaxMind DB file's search tree is corrupt in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php:246
+Stack trace:
+#0 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(146): MaxMind\Db\Reader->resolveDataPointer(16727818)
+#1 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(101): MaxMind\Db\Reader->getWithPrefixLen('2405:204:204:1c...')
+#2 /home3/trool5du/public_html/app/controllers/link/Link.php(98): MaxMind\Db\Reader->get('2405:204:204:1c...')
+#3 [internal function]: Altum\Controllers\Link->index()
+#4 /home3/trool5du/public_html/app/core/App.php(149): call_user_func_array(Array, Array)
+#5 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#6 {main}
+  thrown in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php on line 246
+[04-Nov-2020 18:39:49 UTC] PHP Fatal error:  Uncaught MaxMind\Db\Reader\InvalidDatabaseException: The MaxMind DB file's search tree is corrupt in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php:246
+Stack trace:
+#0 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(146): MaxMind\Db\Reader->resolveDataPointer(16727818)
+#1 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(101): MaxMind\Db\Reader->getWithPrefixLen('2405:204:204:1c...')
+#2 /home3/trool5du/public_html/app/controllers/link/Link.php(98): MaxMind\Db\Reader->get('2405:204:204:1c...')
+#3 [internal function]: Altum\Controllers\Link->index()
+#4 /home3/trool5du/public_html/app/core/App.php(149): call_user_func_array(Array, Array)
+#5 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#6 {main}
+  thrown in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php on line 246
+[04-Nov-2020 18:39:54 UTC] PHP Fatal error:  Uncaught MaxMind\Db\Reader\InvalidDatabaseException: The MaxMind DB file's search tree is corrupt in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php:246
+Stack trace:
+#0 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(146): MaxMind\Db\Reader->resolveDataPointer(16727818)
+#1 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(101): MaxMind\Db\Reader->getWithPrefixLen('2405:204:204:1c...')
+#2 /home3/trool5du/public_html/app/controllers/link/Link.php(98): MaxMind\Db\Reader->get('2405:204:204:1c...')
+#3 [internal function]: Altum\Controllers\Link->index()
+#4 /home3/trool5du/public_html/app/core/App.php(149): call_user_func_array(Array, Array)
+#5 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#6 {main}
+  thrown in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php on line 246
+[05-Nov-2020 04:01:38 UTC] PHP Fatal error:  Uncaught MaxMind\Db\Reader\InvalidDatabaseException: The MaxMind DB file's search tree is corrupt in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php:246
+Stack trace:
+#0 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(146): MaxMind\Db\Reader->resolveDataPointer(16727818)
+#1 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(101): MaxMind\Db\Reader->getWithPrefixLen('2405:204:204:1c...')
+#2 /home3/trool5du/public_html/app/controllers/link/Link.php(98): MaxMind\Db\Reader->get('2405:204:204:1c...')
+#3 [internal function]: Altum\Controllers\Link->index()
+#4 /home3/trool5du/public_html/app/core/App.php(149): call_user_func_array(Array, Array)
+#5 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#6 {main}
+  thrown in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php on line 246
+[05-Nov-2020 04:01:38 UTC] PHP Fatal error:  Uncaught MaxMind\Db\Reader\InvalidDatabaseException: The MaxMind DB file's search tree is corrupt in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php:246
+Stack trace:
+#0 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(146): MaxMind\Db\Reader->resolveDataPointer(16727818)
+#1 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(101): MaxMind\Db\Reader->getWithPrefixLen('2405:204:204:1c...')
+#2 /home3/trool5du/public_html/app/controllers/link/Link.php(98): MaxMind\Db\Reader->get('2405:204:204:1c...')
+#3 [internal function]: Altum\Controllers\Link->index()
+#4 /home3/trool5du/public_html/app/core/App.php(149): call_user_func_array(Array, Array)
+#5 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#6 {main}
+  thrown in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php on line 246
+[05-Nov-2020 04:01:38 UTC] PHP Fatal error:  Uncaught MaxMind\Db\Reader\InvalidDatabaseException: The MaxMind DB file's search tree is corrupt in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php:246
+Stack trace:
+#0 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(146): MaxMind\Db\Reader->resolveDataPointer(16727818)
+#1 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(101): MaxMind\Db\Reader->getWithPrefixLen('2405:204:204:1c...')
+#2 /home3/trool5du/public_html/app/controllers/link/Link.php(98): MaxMind\Db\Reader->get('2405:204:204:1c...')
+#3 [internal function]: Altum\Controllers\Link->index()
+#4 /home3/trool5du/public_html/app/core/App.php(149): call_user_func_array(Array, Array)
+#5 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#6 {main}
+  thrown in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php on line 246
+[05-Nov-2020 04:01:43 UTC] PHP Fatal error:  Uncaught MaxMind\Db\Reader\InvalidDatabaseException: The MaxMind DB file's search tree is corrupt in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php:246
+Stack trace:
+#0 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(146): MaxMind\Db\Reader->resolveDataPointer(16727818)
+#1 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(101): MaxMind\Db\Reader->getWithPrefixLen('2405:204:204:1c...')
+#2 /home3/trool5du/public_html/app/controllers/link/Link.php(98): MaxMind\Db\Reader->get('2405:204:204:1c...')
+#3 [internal function]: Altum\Controllers\Link->index()
+#4 /home3/trool5du/public_html/app/core/App.php(149): call_user_func_array(Array, Array)
+#5 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#6 {main}
+  thrown in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php on line 246
+[13-Nov-2020 10:55:37 UTC] PHP Fatal error:  Uncaught MaxMind\Db\Reader\InvalidDatabaseException: The MaxMind DB file's search tree is corrupt in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php:246
+Stack trace:
+#0 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(146): MaxMind\Db\Reader->resolveDataPointer(16727818)
+#1 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(101): MaxMind\Db\Reader->getWithPrefixLen('2405:204:285:ee...')
+#2 /home3/trool5du/public_html/app/controllers/link/Link.php(98): MaxMind\Db\Reader->get('2405:204:285:ee...')
+#3 [internal function]: Altum\Controllers\Link->index()
+#4 /home3/trool5du/public_html/app/core/App.php(149): call_user_func_array(Array, Array)
+#5 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#6 {main}
+  thrown in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php on line 246
+[13-Nov-2020 10:55:37 UTC] PHP Fatal error:  Uncaught MaxMind\Db\Reader\InvalidDatabaseException: The MaxMind DB file's search tree is corrupt in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php:246
+Stack trace:
+#0 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(146): MaxMind\Db\Reader->resolveDataPointer(16727818)
+#1 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(101): MaxMind\Db\Reader->getWithPrefixLen('2405:204:285:ee...')
+#2 /home3/trool5du/public_html/app/controllers/link/Link.php(98): MaxMind\Db\Reader->get('2405:204:285:ee...')
+#3 [internal function]: Altum\Controllers\Link->index()
+#4 /home3/trool5du/public_html/app/core/App.php(149): call_user_func_array(Array, Array)
+#5 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#6 {main}
+  thrown in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php on line 246
+[13-Nov-2020 10:55:37 UTC] PHP Fatal error:  Uncaught MaxMind\Db\Reader\InvalidDatabaseException: The MaxMind DB file's search tree is corrupt in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php:246
+Stack trace:
+#0 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(146): MaxMind\Db\Reader->resolveDataPointer(16727818)
+#1 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(101): MaxMind\Db\Reader->getWithPrefixLen('2405:204:285:ee...')
+#2 /home3/trool5du/public_html/app/controllers/link/Link.php(98): MaxMind\Db\Reader->get('2405:204:285:ee...')
+#3 [internal function]: Altum\Controllers\Link->index()
+#4 /home3/trool5du/public_html/app/core/App.php(149): call_user_func_array(Array, Array)
+#5 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#6 {main}
+  thrown in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php on line 246
+[13-Nov-2020 10:55:40 UTC] PHP Fatal error:  Uncaught MaxMind\Db\Reader\InvalidDatabaseException: The MaxMind DB file's search tree is corrupt in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php:246
+Stack trace:
+#0 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(146): MaxMind\Db\Reader->resolveDataPointer(16727818)
+#1 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(101): MaxMind\Db\Reader->getWithPrefixLen('2405:204:285:ee...')
+#2 /home3/trool5du/public_html/app/controllers/link/Link.php(98): MaxMind\Db\Reader->get('2405:204:285:ee...')
+#3 [internal function]: Altum\Controllers\Link->index()
+#4 /home3/trool5du/public_html/app/core/App.php(149): call_user_func_array(Array, Array)
+#5 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#6 {main}
+  thrown in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php on line 246
+[23-Nov-2020 07:45:17 UTC] PHP Fatal error:  Uncaught MaxMind\Db\Reader\InvalidDatabaseException: The MaxMind DB file's search tree is corrupt in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php:246
+Stack trace:
+#0 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(146): MaxMind\Db\Reader->resolveDataPointer(16727818)
+#1 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(101): MaxMind\Db\Reader->getWithPrefixLen('2405:204:2022:a...')
+#2 /home3/trool5du/public_html/app/controllers/link/Link.php(98): MaxMind\Db\Reader->get('2405:204:2022:a...')
+#3 [internal function]: Altum\Controllers\Link->index()
+#4 /home3/trool5du/public_html/app/core/App.php(149): call_user_func_array(Array, Array)
+#5 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#6 {main}
+  thrown in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php on line 246
+[23-Nov-2020 07:45:17 UTC] PHP Fatal error:  Uncaught MaxMind\Db\Reader\InvalidDatabaseException: The MaxMind DB file's search tree is corrupt in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php:246
+Stack trace:
+#0 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(146): MaxMind\Db\Reader->resolveDataPointer(16727818)
+#1 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(101): MaxMind\Db\Reader->getWithPrefixLen('2405:204:2022:a...')
+#2 /home3/trool5du/public_html/app/controllers/link/Link.php(98): MaxMind\Db\Reader->get('2405:204:2022:a...')
+#3 [internal function]: Altum\Controllers\Link->index()
+#4 /home3/trool5du/public_html/app/core/App.php(149): call_user_func_array(Array, Array)
+#5 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#6 {main}
+  thrown in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php on line 246
+[23-Nov-2020 07:45:17 UTC] PHP Fatal error:  Uncaught MaxMind\Db\Reader\InvalidDatabaseException: The MaxMind DB file's search tree is corrupt in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php:246
+Stack trace:
+#0 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(146): MaxMind\Db\Reader->resolveDataPointer(16727818)
+#1 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(101): MaxMind\Db\Reader->getWithPrefixLen('2405:204:2022:a...')
+#2 /home3/trool5du/public_html/app/controllers/link/Link.php(98): MaxMind\Db\Reader->get('2405:204:2022:a...')
+#3 [internal function]: Altum\Controllers\Link->index()
+#4 /home3/trool5du/public_html/app/core/App.php(149): call_user_func_array(Array, Array)
+#5 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#6 {main}
+  thrown in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php on line 246
+[23-Nov-2020 07:45:32 UTC] PHP Fatal error:  Uncaught MaxMind\Db\Reader\InvalidDatabaseException: The MaxMind DB file's search tree is corrupt in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php:246
+Stack trace:
+#0 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(146): MaxMind\Db\Reader->resolveDataPointer(16727818)
+#1 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(101): MaxMind\Db\Reader->getWithPrefixLen('2405:204:2022:a...')
+#2 /home3/trool5du/public_html/app/controllers/link/Link.php(98): MaxMind\Db\Reader->get('2405:204:2022:a...')
+#3 [internal function]: Altum\Controllers\Link->index()
+#4 /home3/trool5du/public_html/app/core/App.php(149): call_user_func_array(Array, Array)
+#5 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#6 {main}
+  thrown in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php on line 246
+[27-Nov-2020 21:02:55 UTC] PHP Fatal error:  Uncaught MaxMind\Db\Reader\InvalidDatabaseException: The MaxMind DB file's search tree is corrupt in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php:246
+Stack trace:
+#0 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(146): MaxMind\Db\Reader->resolveDataPointer(16727818)
+#1 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(101): MaxMind\Db\Reader->getWithPrefixLen('2405:204:200d:e...')
+#2 /home3/trool5du/public_html/app/controllers/link/Link.php(98): MaxMind\Db\Reader->get('2405:204:200d:e...')
+#3 [internal function]: Altum\Controllers\Link->index()
+#4 /home3/trool5du/public_html/app/core/App.php(149): call_user_func_array(Array, Array)
+#5 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#6 {main}
+  thrown in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php on line 246
+[27-Nov-2020 21:02:55 UTC] PHP Fatal error:  Uncaught MaxMind\Db\Reader\InvalidDatabaseException: The MaxMind DB file's search tree is corrupt in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php:246
+Stack trace:
+#0 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(146): MaxMind\Db\Reader->resolveDataPointer(16727818)
+#1 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(101): MaxMind\Db\Reader->getWithPrefixLen('2405:204:200d:e...')
+#2 /home3/trool5du/public_html/app/controllers/link/Link.php(98): MaxMind\Db\Reader->get('2405:204:200d:e...')
+#3 [internal function]: Altum\Controllers\Link->index()
+#4 /home3/trool5du/public_html/app/core/App.php(149): call_user_func_array(Array, Array)
+#5 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#6 {main}
+  thrown in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php on line 246
+[27-Nov-2020 21:02:55 UTC] PHP Fatal error:  Uncaught MaxMind\Db\Reader\InvalidDatabaseException: The MaxMind DB file's search tree is corrupt in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php:246
+Stack trace:
+#0 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(146): MaxMind\Db\Reader->resolveDataPointer(16727818)
+#1 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(101): MaxMind\Db\Reader->getWithPrefixLen('2405:204:200d:e...')
+#2 /home3/trool5du/public_html/app/controllers/link/Link.php(98): MaxMind\Db\Reader->get('2405:204:200d:e...')
+#3 [internal function]: Altum\Controllers\Link->index()
+#4 /home3/trool5du/public_html/app/core/App.php(149): call_user_func_array(Array, Array)
+#5 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#6 {main}
+  thrown in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php on line 246
+[28-Nov-2020 11:08:01 UTC] PHP Fatal error:  Uncaught MaxMind\Db\Reader\InvalidDatabaseException: The MaxMind DB file's search tree is corrupt in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php:246
+Stack trace:
+#0 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(146): MaxMind\Db\Reader->resolveDataPointer(16727818)
+#1 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(101): MaxMind\Db\Reader->getWithPrefixLen('2405:204:200d:e...')
+#2 /home3/trool5du/public_html/app/controllers/link/Link.php(98): MaxMind\Db\Reader->get('2405:204:200d:e...')
+#3 [internal function]: Altum\Controllers\Link->index()
+#4 /home3/trool5du/public_html/app/core/App.php(149): call_user_func_array(Array, Array)
+#5 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#6 {main}
+  thrown in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php on line 246
+[28-Nov-2020 11:08:01 UTC] PHP Fatal error:  Uncaught MaxMind\Db\Reader\InvalidDatabaseException: The MaxMind DB file's search tree is corrupt in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php:246
+Stack trace:
+#0 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(146): MaxMind\Db\Reader->resolveDataPointer(16727818)
+#1 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(101): MaxMind\Db\Reader->getWithPrefixLen('2405:204:200d:e...')
+#2 /home3/trool5du/public_html/app/controllers/link/Link.php(98): MaxMind\Db\Reader->get('2405:204:200d:e...')
+#3 [internal function]: Altum\Controllers\Link->index()
+#4 /home3/trool5du/public_html/app/core/App.php(149): call_user_func_array(Array, Array)
+#5 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#6 {main}
+  thrown in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php on line 246
+[28-Nov-2020 11:08:01 UTC] PHP Fatal error:  Uncaught MaxMind\Db\Reader\InvalidDatabaseException: The MaxMind DB file's search tree is corrupt in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php:246
+Stack trace:
+#0 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(146): MaxMind\Db\Reader->resolveDataPointer(16727818)
+#1 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(101): MaxMind\Db\Reader->getWithPrefixLen('2405:204:200d:e...')
+#2 /home3/trool5du/public_html/app/controllers/link/Link.php(98): MaxMind\Db\Reader->get('2405:204:200d:e...')
+#3 [internal function]: Altum\Controllers\Link->index()
+#4 /home3/trool5du/public_html/app/core/App.php(149): call_user_func_array(Array, Array)
+#5 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#6 {main}
+  thrown in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php on line 246
+[28-Nov-2020 11:08:51 UTC] PHP Fatal error:  Uncaught MaxMind\Db\Reader\InvalidDatabaseException: The MaxMind DB file's search tree is corrupt in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php:246
+Stack trace:
+#0 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(146): MaxMind\Db\Reader->resolveDataPointer(16727818)
+#1 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(101): MaxMind\Db\Reader->getWithPrefixLen('2405:204:200d:e...')
+#2 /home3/trool5du/public_html/app/controllers/link/Link.php(98): MaxMind\Db\Reader->get('2405:204:200d:e...')
+#3 [internal function]: Altum\Controllers\Link->index()
+#4 /home3/trool5du/public_html/app/core/App.php(149): call_user_func_array(Array, Array)
+#5 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#6 {main}
+  thrown in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php on line 246
+[28-Nov-2020 11:08:54 UTC] PHP Fatal error:  Uncaught MaxMind\Db\Reader\InvalidDatabaseException: The MaxMind DB file's search tree is corrupt in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php:246
+Stack trace:
+#0 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(146): MaxMind\Db\Reader->resolveDataPointer(16727818)
+#1 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(101): MaxMind\Db\Reader->getWithPrefixLen('2405:204:200d:e...')
+#2 /home3/trool5du/public_html/app/controllers/link/Link.php(98): MaxMind\Db\Reader->get('2405:204:200d:e...')
+#3 [internal function]: Altum\Controllers\Link->index()
+#4 /home3/trool5du/public_html/app/core/App.php(149): call_user_func_array(Array, Array)
+#5 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#6 {main}
+  thrown in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php on line 246
+[01-Dec-2020 11:48:44 UTC] PHP Fatal error:  Uncaught MaxMind\Db\Reader\InvalidDatabaseException: The MaxMind DB file's search tree is corrupt in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php:246
+Stack trace:
+#0 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(146): MaxMind\Db\Reader->resolveDataPointer(16727818)
+#1 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(101): MaxMind\Db\Reader->getWithPrefixLen('2405:204:2228:1...')
+#2 /home3/trool5du/public_html/app/controllers/link/Link.php(98): MaxMind\Db\Reader->get('2405:204:2228:1...')
+#3 [internal function]: Altum\Controllers\Link->index()
+#4 /home3/trool5du/public_html/app/core/App.php(149): call_user_func_array(Array, Array)
+#5 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#6 {main}
+  thrown in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php on line 246
+[01-Dec-2020 11:48:46 UTC] PHP Fatal error:  Uncaught MaxMind\Db\Reader\InvalidDatabaseException: The MaxMind DB file's search tree is corrupt in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php:246
+Stack trace:
+#0 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(146): MaxMind\Db\Reader->resolveDataPointer(16727818)
+#1 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(101): MaxMind\Db\Reader->getWithPrefixLen('2405:204:2228:1...')
+#2 /home3/trool5du/public_html/app/controllers/link/Link.php(98): MaxMind\Db\Reader->get('2405:204:2228:1...')
+#3 [internal function]: Altum\Controllers\Link->index()
+#4 /home3/trool5du/public_html/app/core/App.php(149): call_user_func_array(Array, Array)
+#5 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#6 {main}
+  thrown in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php on line 246
+[01-Dec-2020 11:48:47 UTC] PHP Fatal error:  Uncaught MaxMind\Db\Reader\InvalidDatabaseException: The MaxMind DB file's search tree is corrupt in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php:246
+Stack trace:
+#0 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(146): MaxMind\Db\Reader->resolveDataPointer(16727818)
+#1 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(101): MaxMind\Db\Reader->getWithPrefixLen('2405:204:2228:1...')
+#2 /home3/trool5du/public_html/app/controllers/link/Link.php(98): MaxMind\Db\Reader->get('2405:204:2228:1...')
+#3 [internal function]: Altum\Controllers\Link->index()
+#4 /home3/trool5du/public_html/app/core/App.php(149): call_user_func_array(Array, Array)
+#5 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#6 {main}
+  thrown in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php on line 246
+[01-Dec-2020 14:44:51 UTC] PHP Fatal error:  Uncaught MaxMind\Db\Reader\InvalidDatabaseException: The MaxMind DB file's search tree is corrupt in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php:246
+Stack trace:
+#0 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(146): MaxMind\Db\Reader->resolveDataPointer(16727818)
+#1 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(101): MaxMind\Db\Reader->getWithPrefixLen('2405:204:2228:1...')
+#2 /home3/trool5du/public_html/app/controllers/link/Link.php(98): MaxMind\Db\Reader->get('2405:204:2228:1...')
+#3 [internal function]: Altum\Controllers\Link->index()
+#4 /home3/trool5du/public_html/app/core/App.php(149): call_user_func_array(Array, Array)
+#5 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#6 {main}
+  thrown in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php on line 246
+[01-Dec-2020 14:44:54 UTC] PHP Fatal error:  Uncaught MaxMind\Db\Reader\InvalidDatabaseException: The MaxMind DB file's search tree is corrupt in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php:246
+Stack trace:
+#0 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(146): MaxMind\Db\Reader->resolveDataPointer(16727818)
+#1 /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php(101): MaxMind\Db\Reader->getWithPrefixLen('2405:204:2228:1...')
+#2 /home3/trool5du/public_html/app/controllers/link/Link.php(98): MaxMind\Db\Reader->get('2405:204:2228:1...')
+#3 [internal function]: Altum\Controllers\Link->index()
+#4 /home3/trool5du/public_html/app/core/App.php(149): call_user_func_array(Array, Array)
+#5 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#6 {main}
+  thrown in /home3/trool5du/public_html/vendor/maxmind-db/reader/src/MaxMind/Db/Reader.php on line 246
+[11-Dec-2020 11:09:51 America/Chicago] PHP Fatal error:  Uncaught Phpfastcache\Exceptions\PhpfastcacheInvalidArgumentException: Unsupported key character detected: "(". Please check: https://github.com/PHPSocialNetwork/phpfastcache/wiki/%5BV6%5D-Unsupported-characters-in-key-identifiers in /home3/trool5du/public_html/vendor/phpfastcache/phpfastcache/lib/Phpfastcache/Core/Pool/CacheItemPoolTrait.php:77
+Stack trace:
+#0 /home3/trool5du/public_html/app/core/Router.php(393): Phpfastcache\Drivers\Files\Driver->getItem('available_links...')
+#1 /home3/trool5du/public_html/app/core/App.php(28): Altum\Routing\Router::parse_controller()
+#2 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#3 {main}
+  thrown in /home3/trool5du/public_html/vendor/phpfastcache/phpfastcache/lib/Phpfastcache/Core/Pool/CacheItemPoolTrait.php on line 77
+[11-Dec-2020 11:10:52 America/Chicago] PHP Fatal error:  Uncaught Phpfastcache\Exceptions\PhpfastcacheInvalidArgumentException: Unsupported key character detected: "(". Please check: https://github.com/PHPSocialNetwork/phpfastcache/wiki/%5BV6%5D-Unsupported-characters-in-key-identifiers in /home3/trool5du/public_html/vendor/phpfastcache/phpfastcache/lib/Phpfastcache/Core/Pool/CacheItemPoolTrait.php:77
+Stack trace:
+#0 /home3/trool5du/public_html/app/core/Router.php(393): Phpfastcache\Drivers\Files\Driver->getItem('available_links...')
+#1 /home3/trool5du/public_html/app/core/App.php(28): Altum\Routing\Router::parse_controller()
+#2 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#3 {main}
+  thrown in /home3/trool5du/public_html/vendor/phpfastcache/phpfastcache/lib/Phpfastcache/Core/Pool/CacheItemPoolTrait.php on line 77
+[11-Dec-2020 11:11:08 America/Chicago] PHP Fatal error:  Uncaught Phpfastcache\Exceptions\PhpfastcacheInvalidArgumentException: Unsupported key character detected: "(". Please check: https://github.com/PHPSocialNetwork/phpfastcache/wiki/%5BV6%5D-Unsupported-characters-in-key-identifiers in /home3/trool5du/public_html/vendor/phpfastcache/phpfastcache/lib/Phpfastcache/Core/Pool/CacheItemPoolTrait.php:77
+Stack trace:
+#0 /home3/trool5du/public_html/app/core/Router.php(393): Phpfastcache\Drivers\Files\Driver->getItem('available_links...')
+#1 /home3/trool5du/public_html/app/core/App.php(28): Altum\Routing\Router::parse_controller()
+#2 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#3 {main}
+  thrown in /home3/trool5du/public_html/vendor/phpfastcache/phpfastcache/lib/Phpfastcache/Core/Pool/CacheItemPoolTrait.php on line 77
+[11-Dec-2020 11:11:19 America/Chicago] PHP Fatal error:  Uncaught Phpfastcache\Exceptions\PhpfastcacheInvalidArgumentException: Unsupported key character detected: "(". Please check: https://github.com/PHPSocialNetwork/phpfastcache/wiki/%5BV6%5D-Unsupported-characters-in-key-identifiers in /home3/trool5du/public_html/vendor/phpfastcache/phpfastcache/lib/Phpfastcache/Core/Pool/CacheItemPoolTrait.php:77
+Stack trace:
+#0 /home3/trool5du/public_html/app/core/Router.php(393): Phpfastcache\Drivers\Files\Driver->getItem('available_links...')
+#1 /home3/trool5du/public_html/app/core/App.php(28): Altum\Routing\Router::parse_controller()
+#2 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#3 {main}
+  thrown in /home3/trool5du/public_html/vendor/phpfastcache/phpfastcache/lib/Phpfastcache/Core/Pool/CacheItemPoolTrait.php on line 77
+[25-Dec-2020 18:11:26 America/Chicago] PHP Fatal error:  Uncaught Phpfastcache\Exceptions\PhpfastcacheInvalidArgumentException: Unsupported key character detected: "(". Please check: https://github.com/PHPSocialNetwork/phpfastcache/wiki/%5BV6%5D-Unsupported-characters-in-key-identifiers in /home3/trool5du/public_html/vendor/phpfastcache/phpfastcache/lib/Phpfastcache/Core/Pool/CacheItemPoolTrait.php:77
+Stack trace:
+#0 /home3/trool5du/public_html/app/core/Router.php(393): Phpfastcache\Drivers\Files\Driver->getItem('available_links...')
+#1 /home3/trool5du/public_html/app/core/App.php(28): Altum\Routing\Router::parse_controller()
+#2 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#3 {main}
+  thrown in /home3/trool5du/public_html/vendor/phpfastcache/phpfastcache/lib/Phpfastcache/Core/Pool/CacheItemPoolTrait.php on line 77
+[25-Dec-2020 18:11:45 America/Chicago] PHP Fatal error:  Uncaught Phpfastcache\Exceptions\PhpfastcacheInvalidArgumentException: Unsupported key character detected: "(". Please check: https://github.com/PHPSocialNetwork/phpfastcache/wiki/%5BV6%5D-Unsupported-characters-in-key-identifiers in /home3/trool5du/public_html/vendor/phpfastcache/phpfastcache/lib/Phpfastcache/Core/Pool/CacheItemPoolTrait.php:77
+Stack trace:
+#0 /home3/trool5du/public_html/app/core/Router.php(393): Phpfastcache\Drivers\Files\Driver->getItem('available_links...')
+#1 /home3/trool5du/public_html/app/core/App.php(28): Altum\Routing\Router::parse_controller()
+#2 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#3 {main}
+  thrown in /home3/trool5du/public_html/vendor/phpfastcache/phpfastcache/lib/Phpfastcache/Core/Pool/CacheItemPoolTrait.php on line 77
+[25-Dec-2020 18:11:52 America/Chicago] PHP Fatal error:  Uncaught Phpfastcache\Exceptions\PhpfastcacheInvalidArgumentException: Unsupported key character detected: "(". Please check: https://github.com/PHPSocialNetwork/phpfastcache/wiki/%5BV6%5D-Unsupported-characters-in-key-identifiers in /home3/trool5du/public_html/vendor/phpfastcache/phpfastcache/lib/Phpfastcache/Core/Pool/CacheItemPoolTrait.php:77
+Stack trace:
+#0 /home3/trool5du/public_html/app/core/Router.php(393): Phpfastcache\Drivers\Files\Driver->getItem('available_links...')
+#1 /home3/trool5du/public_html/app/core/App.php(28): Altum\Routing\Router::parse_controller()
+#2 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#3 {main}
+  thrown in /home3/trool5du/public_html/vendor/phpfastcache/phpfastcache/lib/Phpfastcache/Core/Pool/CacheItemPoolTrait.php on line 77
+[25-Dec-2020 18:11:57 America/Chicago] PHP Fatal error:  Uncaught Phpfastcache\Exceptions\PhpfastcacheInvalidArgumentException: Unsupported key character detected: "(". Please check: https://github.com/PHPSocialNetwork/phpfastcache/wiki/%5BV6%5D-Unsupported-characters-in-key-identifiers in /home3/trool5du/public_html/vendor/phpfastcache/phpfastcache/lib/Phpfastcache/Core/Pool/CacheItemPoolTrait.php:77
+Stack trace:
+#0 /home3/trool5du/public_html/app/core/Router.php(393): Phpfastcache\Drivers\Files\Driver->getItem('available_links...')
+#1 /home3/trool5du/public_html/app/core/App.php(28): Altum\Routing\Router::parse_controller()
+#2 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#3 {main}
+  thrown in /home3/trool5du/public_html/vendor/phpfastcache/phpfastcache/lib/Phpfastcache/Core/Pool/CacheItemPoolTrait.php on line 77
+[31-Dec-2020 18:44:20 America/Chicago] PHP Fatal error:  Uncaught Phpfastcache\Exceptions\PhpfastcacheInvalidArgumentException: Unsupported key character detected: "(". Please check: https://github.com/PHPSocialNetwork/phpfastcache/wiki/%5BV6%5D-Unsupported-characters-in-key-identifiers in /home3/trool5du/public_html/vendor/phpfastcache/phpfastcache/lib/Phpfastcache/Core/Pool/CacheItemPoolTrait.php:77
+Stack trace:
+#0 /home3/trool5du/public_html/app/core/Router.php(393): Phpfastcache\Drivers\Files\Driver->getItem('available_links...')
+#1 /home3/trool5du/public_html/app/core/App.php(28): Altum\Routing\Router::parse_controller()
+#2 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#3 {main}
+  thrown in /home3/trool5du/public_html/vendor/phpfastcache/phpfastcache/lib/Phpfastcache/Core/Pool/CacheItemPoolTrait.php on line 77
+[31-Dec-2020 18:44:42 America/Chicago] PHP Fatal error:  Uncaught Phpfastcache\Exceptions\PhpfastcacheInvalidArgumentException: Unsupported key character detected: "(". Please check: https://github.com/PHPSocialNetwork/phpfastcache/wiki/%5BV6%5D-Unsupported-characters-in-key-identifiers in /home3/trool5du/public_html/vendor/phpfastcache/phpfastcache/lib/Phpfastcache/Core/Pool/CacheItemPoolTrait.php:77
+Stack trace:
+#0 /home3/trool5du/public_html/app/core/Router.php(393): Phpfastcache\Drivers\Files\Driver->getItem('available_links...')
+#1 /home3/trool5du/public_html/app/core/App.php(28): Altum\Routing\Router::parse_controller()
+#2 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#3 {main}
+  thrown in /home3/trool5du/public_html/vendor/phpfastcache/phpfastcache/lib/Phpfastcache/Core/Pool/CacheItemPoolTrait.php on line 77
+[31-Dec-2020 18:44:52 America/Chicago] PHP Fatal error:  Uncaught Phpfastcache\Exceptions\PhpfastcacheInvalidArgumentException: Unsupported key character detected: "(". Please check: https://github.com/PHPSocialNetwork/phpfastcache/wiki/%5BV6%5D-Unsupported-characters-in-key-identifiers in /home3/trool5du/public_html/vendor/phpfastcache/phpfastcache/lib/Phpfastcache/Core/Pool/CacheItemPoolTrait.php:77
+Stack trace:
+#0 /home3/trool5du/public_html/app/core/Router.php(393): Phpfastcache\Drivers\Files\Driver->getItem('available_links...')
+#1 /home3/trool5du/public_html/app/core/App.php(28): Altum\Routing\Router::parse_controller()
+#2 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#3 {main}
+  thrown in /home3/trool5du/public_html/vendor/phpfastcache/phpfastcache/lib/Phpfastcache/Core/Pool/CacheItemPoolTrait.php on line 77
+[31-Dec-2020 18:44:58 America/Chicago] PHP Fatal error:  Uncaught Phpfastcache\Exceptions\PhpfastcacheInvalidArgumentException: Unsupported key character detected: "(". Please check: https://github.com/PHPSocialNetwork/phpfastcache/wiki/%5BV6%5D-Unsupported-characters-in-key-identifiers in /home3/trool5du/public_html/vendor/phpfastcache/phpfastcache/lib/Phpfastcache/Core/Pool/CacheItemPoolTrait.php:77
+Stack trace:
+#0 /home3/trool5du/public_html/app/core/Router.php(393): Phpfastcache\Drivers\Files\Driver->getItem('available_links...')
+#1 /home3/trool5du/public_html/app/core/App.php(28): Altum\Routing\Router::parse_controller()
+#2 /home3/trool5du/public_html/index.php(11): Altum\App->__construct()
+#3 {main}
+  thrown in /home3/trool5du/public_html/vendor/phpfastcache/phpfastcache/lib/Phpfastcache/Core/Pool/CacheItemPoolTrait.php on line 77
